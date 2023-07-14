@@ -122,6 +122,8 @@ We select and click on UMD (Production), copy all the entire page and paste in y
 
 **NOTE:** Dont't forget to add the following script to your `index.HTML` at the end of your body as bellow, and be sure to change your correct path following your folder three structure:
 
+<br>
+
 ```html
  <!-- Game minified to production -->
   <script src="src/js/underscore-min.js"></script>
