@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="public/favicon.png" type="image/x-icon">
+
+
+  <!-- Our styles always last -->
+  <link rel="stylesheet" href="src/css/styles.css">
+  <title>Blackjack Game</title>
+</head>
+
+<body>
+  <header class="title">Blackjack</header>
+
+  <div class="row">
+    <div id="divButtons" class="col">
+      <button id='buttonNewGame' type="button" class="button">New game</button>
+      <button id='buttonAskFor' type="button" class="button">Ask for card</button>
+      <button id='buttonStop' type="button" class="button red">Stop me</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="col">
+      <h1>Player <small>( 0 )</small> points</h1>
+      <div id="player-cards">
+        <!-- <img class="card" src="assets/cards/AS.png" alt="AS of Spades card game for Blackjack"> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="col">
+      <h1>Computer <small>( 0 )</small> points</h1>
+      <div id="computer-cards">
+
+        <!-- We use relative paths to read the cards instead -->
+        <!-- <img class="card" src="assets/cards/3D.png" alt="3 of Diamonds card game for Blackjack"> -->
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts.js always at the end of the body -->
+  <!-- <script src="src/js/game.js"></script> -->
+  
+  <!-- Game minified to production -->
+  <script src="src/js/underscore-min.js"></script>
+  <script src="src/js/game-min.js"></script>
+
+
+</body>
+
+</html>
