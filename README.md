@@ -14,7 +14,7 @@
 
  <!-- [![Build Status](https://travis-ci.org/escummy/dillinger.svg?branch=master)](https://travis-ci.org/escummy/dillinger) <img alt="Github workflows" src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg"/> <img alt="Contributor Covenant v2.1" src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg"/> <img alt="License" src="https://img.shields.io/github/license/escummy/webpack-complete?style=flat-square&labelColor=343b41"/> -->
 
-> 21 blackjack game ucreated in vanilla javascript, covered with use strict to protect possible changes in the browser or developer tools by any user and minified to reduce the total weight file in bytes.
+> 21 blackjack game created in vanilla javascript, covered with use strict to protect possible changes in the browser or developer tools by any user and minified to reduce the total weight file in bytes.
 
 <br>
 
